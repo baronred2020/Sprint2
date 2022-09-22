@@ -1,0 +1,116 @@
+h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;/*centrar*/
+  text-transform: uppercase;/*lo pase a mayuscula*/
+}
+
+
+* /*norma para todo el documento*/
+{
+  margin: 0;
+  padding: 0 ;/*margen dentro*/
+  box-sizing: border-box; /*borde tipo caja*/
+}
+/*.form-producto para que coja los cambios debo de importar la clase*/
+form
+{
+  
+
+  width: 100%; /* el ancho*/
+  background-color: white;/* color de fondo*/
+  padding: 10px;/* margen interna-- */ 
+  margin: auto;/*margen general*/
+  margin-top: 100px;/*margen superior*/
+  margin-left: auto;/*para que lo centre*/ 
+  margin-right: auto;/*para que lo centre*/
+  margin-bottom: 100px;
+  border-radius: 4px;/*el borde sea redondito*/
+  font-family:Arial, Helvetica, sans-serif ;/*tipo de letra*/
+  color: rgb(5, 5, 5);
+  box-shadow:7px 13px 37px #110907 ;/*la sombra de esa caja*/
+  flex-wrap: wrap; /* no se salgan las label, para que lo acople*/
+  justify-content: space-between;/*separacion*/
+  display: flex;
+  max-width: 700px; /*lo ancho*/
+
+}
+
+.Fields1 /*adaptamos los tamaños para que nos salgan la cantidad de cuadrados*/
+{
+  display: flex;
+  flex-direction:column ;/*direccion en columnas para que quede organizado*/
+  width: 70rem;
+  margin: 0.5rem; ;/*separacion de los campos y no esten demaciado pegados*/  
+    
+}
+
+
+.Fields1 input
+{
+font-size: 1.1rem;
+ padding-left: 0.5rem;
+ margin-left: auto;
+ margin-right: auto;
+ width: 35rem;
+
+border-radius: 5px;/*rodear el input*/
+height: 2.7rem;
+
+}
+.Fields /*adaptamos los tamaños para que nos salgan la cantidad de cuadrados*/
+{
+  display: flex;
+  flex-direction:column ;/*direccion en columnas para que quede organizado*/
+  width: 35rem;
+  margin: 0.5rem; ;/*separacion de los campos y no esten demaciado pegados*/  
+   
+}
+
+.Fields input
+{
+font-size: 1.1rem;
+ padding-left: 0.5rem;
+ margin-left: auto;
+ margin-right: auto;
+ width: 35rem;
+
+border-radius: 5px;/*rodear el input*/
+height: 2.7rem;
+
+}
+  
+
+
+
+/*para arreglar los cuadritos en cada input*/
+.controless1
+{
+  width: 100%;
+  background: #fcfcfc;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 18px;/*tamaño de letra*/
+  color: rgb(0, 0, 0);
+}
+
+.controless2  
+{    
+  margin: 0.5rem; ;/*separacion de los campos y no esten demaciado pegados*/ 
+  width: 100%;     
+}
+
+.FieldButton
+{
+  margin: 2.5rem;
+  
+}
+
+
+
+
+
+
+  
+
+
