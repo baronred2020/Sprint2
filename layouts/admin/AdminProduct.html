@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>AdminProducto</title>
+    <link rel="stylesheet" href="/css/Aproducto.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+   <form class="form-Super">
+    <label class="labelU" for="">PRODUCTO</label>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col">
+        <label for="id">ID</label>
+        <input class="form-control" type="number" name="id" id="id" placeholder="" required autocomplete="on" autocapitalize="on">
+        </div>
+        <div class="col">
+        <label for="">Estado</label>
+        <select id="inputState"  class="form-control" type="text" name="Estado" id="Estado" placeholder="" required autocomplete="on" autocapitalize="on">
+        <option selected>Activo</option>
+        <option>Inactivo</option>
+        </select>
+        </div>
+        </div>
+        <br>
+    
+    <label class="label" for="">Nombres</label>
+    <br>
+    <input class="form-control" type="text" name="nombre" id="nombre" placeholder="" required autocomplete="on" autocapitalize="on">
+    <br>
+
+
+    <div class="row">
+    <div class="col">
+    <label for="">Proveedor</label>
+    <input class="form-control" type="text" name="Proveedor" id="Proveedor" placeholder="" required autocomplete="on" autocapitalize="on">
+    </div>
+    <div class="col">
+    <label for="Agregarproducto">Agregar producto</label>
+    <input id="Agregarproducto"  class="form-control" type="number" name="Agregarproducto" placeholder="" required autocomplete="on" autocapitalize="on">
+    </div>
+    </div>
+    
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1"></label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Descripción..."></textarea>
+      </div>
+
+
+
+
+    <div class="row">
+    <div class="col">
+    <label for="">Cantidad mínima</label>
+    <input class="form-control" type="number" name="Direccion" id="Direccion" placeholder="" required autocomplete="on" autocapitalize="on">
+    </div>
+    <div class="col">
+    <label for="">Cantidad Bodega</label>
+    <input class="form-control" type="number" name="Ciudad" id="Ciudad" placeholder="" required autocomplete="on" autocapitalize="on">
+    </div>
+    </div>
+
+    <br>
+    <br>
+    <input class="btn-green" type="submit" value="Crear">
+    <input class="btn-orange" type="submit" value="Consultar">
+    <input class="btn-blue" type="submit" value="Actualizar">
+    <input class="btn-red" type="submit" value="Eliminar">
+
+      
+   </form>
+</body>
+</html>
